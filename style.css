@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+@media only screen and (max-width: 300px) {
+  
+  .card {
+    color: #051923;
+  background-color: #003554;
+  text-align: center;
+  line-height: 35px;
+  width: 200px;
+        height: 100%;
+        padding: 0 1rem;
+        font-size: 1px;
+        border: 4px solid #fff;
+       border-radius: 30px;
+  }
+  
+  h4{
+    position: absolute;
+    top: 0;
+    left: 0;
+   width: 200px;
+   height: 100%;
+    background-color: #003554;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25;
+   
+  }
+  h4 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+  h4:hover {
+    opacity: 1;
+    line-height: 2px;
+    overflow: hidden;
+    font-size: 5px;
+    overflow:scroll;
+    flex-wrap: wrap;
+}
+}
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", "sans-serif";
+  margin: 10;
+  padding: 10;
+}
+
+.navbar-brand{
+font-size: 45px;
+color: #FFA500;
+text-shadow: 3px 3px #2e9dde;
+}
+
+.search{
+  color: #003554;
+}
+
+
+
+.card {
+  color: #051923;
+  background-color: #003554;
+  text-align: center;
+  line-height: 35px;
+  width: 75%;
+        height: 100%;
+        padding: 0 1rem;
+        font-size: 0.8rem;
+        border: 4px solid #fff;
+       border-radius: 30px;
+  }
+
+
+
+  h3, #vote, h4 {
+    color: #FFA500;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .img{
+    width: 18rem;
+    height: 30px;
+   
+  }
+
+  h4{
+    position: absolute;
+    top: 0;
+    left: 0;
+   width: 100%;
+   height: 100%;
+    background-color: #003554;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25;
+    
+  }
+
+  h4 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+  h4:hover {
+    opacity: 1;
+    line-height: 35px;
+    overflow: hidden;
+    border-radius: 30px;
+    overflow:scroll;
+  }
+
+  h4 > * {
+    transform: translateY(0);
+}
+
+.bg-light{
+  font-weight: bolder;
+  color: #005404;
+  text-align: center;
+  font-size: 30px;
+}
+
+
